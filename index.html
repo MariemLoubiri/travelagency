@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('ccc.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(26, 47, 149);
+            align-items: center;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: x-large;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">TravelAgency</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div>
+
+            <div class="d-flex flex-column justify-content-center align-items-center p-4">
+
+                <h1>Explore the World</h1>
+                <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center">Top Destinations</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="paris.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris</h5>
+                        <p class="card-text">It is a beautiful city with a varied climate. It has beautiful
+                            monuments like the Eiffel Tower, Notre Dame Cathedral and the Sacré Cœur.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bali.webp" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Bali</h5>
+                        <p class="card-text">It is the most famous island of Indonesia, the largest archipelago in
+                            the world located between the Southeast Asian peninsula and Australia.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="milano.webp" class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Milano</h5>
+                        <p class="card-text">The fashion capital of the world, Milan is a cosmopolitan Italian city
+                            that has much more to offer travelers than its beautiful luxury boutiques.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="accordion" id="toursAccordion">
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#toursAccordion">
+                <div class="card-body">
+                    A full-day tour exploring the iconic sites of Paris.
+                    <a href="#" class="btn btn-secondary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- Contact Form -->
+<div class="container">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="destination">Destination of Interest</label>
+            <input type="text" class="form-control" id="destination">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<!-- Footer -->
+<footer class="text-center py-4">
+    <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    <a href="#" class="social-icon">Facebook</a>
+    <a href="#" class="social-icon">Twitter</a>
+    <a href="#" class="social-icon">Instagram</a>
+</footer>
+
